@@ -1,5 +1,3 @@
-# Real-Time-Chat-Application
-A real-time chat application built using Django, Django Channels, WebSockets, and SQLite. The application allows users to register, log in, join chat rooms, and exchange messages instantly without refreshing the page.
 
 # Real-Time Chat Application
 
@@ -122,18 +120,6 @@ Open your browser and visit:
 http://127.0.0.1:8000/
 ```
 
-## 📸 Screenshots
-
-Add screenshots inside a `screenshots` folder and update the paths below:
-
-```markdown
-![Login Page](screenshots/login.png)
-
-![Register Page](screenshots/register.png)
-
-![Chat Room](screenshots/chatroom.png)
-```
-
 ## 🔧 Future Improvements
 
 * Group Chat Support
@@ -144,9 +130,6 @@ Add screenshots inside a `screenshots` folder and update the paths below:
 * File Sharing
 * Emoji Support
 
-## 🧠 Challenges Faced
-
-While building this project, I faced an issue where messages were not reaching all connected users in real time. After debugging with browser developer tools, logging, and Django Channels group monitoring, I found that users were not being added to the correct channel groups. Fixing the group configuration resolved the issue and ensured reliable message delivery.
 
 ## 📚 Learning Outcomes
 
