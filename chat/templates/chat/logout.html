@@ -1,0 +1,9 @@
+{% extends 'chat/base.html' %}
+{% block content %}
+    <h2>Logout</h2>
+    <p>Are you sure you want to log out?</p>
+    <form method="post">
+        {% csrf_token %}
+        <button type="submit" style="background: #dc3545;">Logout</button>
+    </form>
+{% endblock %}
